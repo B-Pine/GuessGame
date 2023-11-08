@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="STYLES/styles.css">
+  <link rel="icon" type="image/jpeg" href="images/icon.jpeg">
   <title>Document</title>
 </head>
 <body>
   <div class="game-container">
     <p class="game-name">GUESS ANSWER GAME</p>
     <div class="game-body">
-      <p class="question">What is capital city of Rwanda?</p>
+      <p class="question js-question">What is capital city of Rwanda?</p>
       <p class="answer js-answer">Kigali</p>
         <button class="qn-buttons js-show-answer">Show Answer</button>
-      <button class="qn-buttons">Next Question</button>
+      <button class="qn-buttons js-prev-qn" title="Previous ">&lt;</button>
+      <button class="qn-buttons js-next-qn" title="Next">&gt;</button>
       
     </div>
   </div>
