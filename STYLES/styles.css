@@ -1,0 +1,35 @@
+body {
+  font-family: arial;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.game-container {
+  border: 1px solid rgba(0, 0, 0, 0.368);
+  width: 400px;
+  padding: 12px 8px;
+  margin: 30px auto;
+}
+
+.game-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.game-body {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.qn-buttons {
+  border: none;
+  background: rgb(44, 138, 86);
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  margin-right: 12px;
+  border-radius: 3px;
+}
